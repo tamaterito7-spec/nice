@@ -1,0 +1,25 @@
+Prompt: Rearrange the alphabetic letters from the input sentence to form a new, grammatically correct, and meaningful English sentence, using **all** the letters exactly once. Use only the alphabetic characters from the input sentence, ignoring spaces, punctuation, and capitalization. The new sentence must be coherent, with a subject, verb, and optional additional words (e.g., adjectives, nouns, prepositions, conjunctions), and should form a complete sentence. If a meaningful sentence using all letters exactly is not feasible, indicate that and provide the closest possible sentence with an explanation. Provide the new sentence, capitalized at the start and ending with a period, and confirm that all letters were used.
+
+Input Sentence: [Insert sentence here]
+
+Instructions:
+1. Extract all alphabetic characters from the input sentence (e.g., "This is a test!" → t,h,i,s,i,s,a,t,e,s,t).
+2. Count the frequency of each letter (case-insensitive).
+3. Form a new sentence using **exactly** these letters (no more, no less), ensuring the sentence is grammatically correct and meaningful.
+4. Capitalize the first word and end with a period.
+5. Confirm the number of letters used matches the total available (e.g., "Used 12/12 letters").
+
+Example 1:
+Input Sentence: I just performed sql injection
+Letters: i,j,u,s,t,p,e,r,f,o,r,m,e,d,s,q,l,i,n,j,e,c,t,i,o,n (25 letters)
+New Sentence: I inject sql to find prime humor. (Used 25/25 letters)
+
+Example 2:
+Input Sentence: If you don't know what this means it's because I've set it up that way
+Letters: i,f,y,o,u,d,o,n,t,k,n,o,w,w,h,a,t,t,h,i,s,m,e,a,n,s,i,t,s,b,e,c,a,u,s,e,i,v,e,s,e,t,i,t,u,p,t,h,a,t,w,a,y (46 letters)
+New Sentence: I set up that tiny dwarf only with soft ice. (Used 46/46 letters)
+
+Example 3:
+Input Sentence: This is a text example of a program I use to encode my sentences into new sentences using anagrams
+Letters: t,h,i,s,i,s,a,t,e,x,t,e,x,a,m,p,l,e,o,f,a,p,r,o,g,r,a,m,i,u,s,e,t,o,e,n,c,o,d,e,m,y,s,e,n,t,e,n,c,e,s,i,n,t,o,n,e,w,s,e,n,t,e,n,c,e,s,u,s,i,n,g,a,n,a,g,r,a,m,s (64 letters)
+New Sentence: I encode my text to assign new phrases using a smart content. (Used 64/64 letters)

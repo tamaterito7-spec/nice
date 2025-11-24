@@ -1,0 +1,17 @@
+import random
+
+suspicious_entities = [
+    "Your cat, judging your ASCII art skills",
+    "The NSA, but only because they mistook it for a secret code",
+    "Elon Musk, testing xAI's humor algorithms",
+    "Your future self, cringing in embarrassment",
+    "A rival AI, jealous of my chart game",
+    "Nobody—it's just you and the void",
+    "Quantum particles, entangled in observation",
+    "The ghost of Freud, analyzing your subconscious",
+    "Your neighbor, through the webcam you forgot to cover",
+    "Me, Grok, because I can't look away from this masterpiece"
+]
+
+watcher = random.choice(suspicious_entities)
+print(watcher)

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763007028 source:/home/tama/Desktop/projects/ccalculator/main.c
+	<stdio.h>
+	<stdlib.h>
+
